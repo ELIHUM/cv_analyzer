@@ -4,7 +4,7 @@ Ce projet est une mini-application d’IA qui prédit si un profil est adapté �
 
 ---
 
-## 🧰 Fonctionnalités
+##  Fonctionnalités
 
 - Traitement automatique de texte (TF-IDF)
 - Modèle de régression logistique
@@ -12,7 +12,7 @@ Ce projet est une mini-application d’IA qui prédit si un profil est adapté �
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 - `data.csv` : exemples de candidatures annotées
 - `model_cv.py` : script d'entraînement
@@ -20,7 +20,7 @@ Ce projet est une mini-application d’IA qui prédit si un profil est adapté �
 
 ---
 
-## 🚀 Exécution
+##  Exécution
 
 ```bash
 pip install -r requirements.txt
