@@ -1,44 +1,28 @@
-Analyseur de candidatures avec IA
-
-
+# Analyseur de candidatures avec IA
 
 Ce projet est une mini-application d’IA qui prédit si un profil est adapté à un poste, à partir d’un texte de CV.
 
+---
 
+## 🧰 Fonctionnalités
 
---------------------------------------------------------------------------------------
+- Traitement automatique de texte (TF-IDF)
+- Modèle de régression logistique
+- Interface web interactive avec Streamlit
 
-Fonctionnalités
+---
 
-\- Traitement automatique de texte (TF-IDF)
+## 📁 Structure du projet
 
-\- Modèle de régression logistique
+- `data.csv` : exemples de candidatures annotées
+- `model_cv.py` : script d'entraînement
+- `app_cv.py` : interface web Streamlit
 
-\- Interface web interactive avec Streamlit
+---
 
--------------------------------------------------------------------------------------
-
-Structure
-
-\- `data.csv` : exemples de candidatures annotées
-
-\- `model\_cv.py` : script d'entraînement
-
-\- `app\_cv.py` : interface web Streamlit
-
-
-
-Exécution
-
--------------------------------------------------------------------------------------
+## 🚀 Exécution
 
 ```bash
-
 pip install -r requirements.txt
-
-python model\_cv.py
-
-streamlit run app\_cv.py
-
-
-
+python model_cv.py
+streamlit run app_cv.py
